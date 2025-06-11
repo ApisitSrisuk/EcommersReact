@@ -79,27 +79,6 @@ function HomePage() {
           >
             เลือกซื้อ iPhone, Mac, iPad และอุปกรณ์เสริมล่าสุด พร้อมข้อเสนอพิเศษ
           </Typography>
-          <Button
-            component={Link}
-            to="/products"
-            variant="contained"
-            color="primary"
-            size="large"
-            endIcon={<ArrowForwardIcon />}
-            sx={{
-              py: 1.8, // เพิ่ม padding แนวตั้ง
-              px: 5, // เพิ่ม padding แนวนอน
-              fontSize: '1.2rem', // เพิ่มขนาดตัวอักษรในปุ่ม
-              borderRadius: 3, 
-              boxShadow: '0px 8px 20px rgba(0,0,0,0.35)', // เพิ่มเงาปุ่มให้เข้มขึ้น
-              '&:hover': {
-                boxShadow: '0px 12px 30px rgba(0,0,0,0.45)', // เงาปุ่มเมื่อ hover เข้มขึ้น
-                transform: 'translateY(-4px)', // ยกปุ่มขึ้นมากขึ้น
-              },
-            }}
-          >
-            ช้อปเลย!
-          </Button>
         </Box>
       </Box>
 
