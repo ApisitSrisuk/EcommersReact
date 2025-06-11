@@ -1,0 +1,32 @@
+/* src/index.css */
+
+/* Custom Scrollbar for Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #B0BEC5;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #78909C;
+}
+
+/* @import สำหรับ Kanit */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap');
+
+/* ตั้งค่า font-family และพื้นหลังหลักสำหรับ body */
+body {
+  font-family: 'Kanit', sans-serif;
+  background-color: #FDFDFD; /* พื้นหลังสีขาวอมครีม/เทาอ่อนที่ดูสะอาดและทันสมัย */
+  min-height: 100vh;
+  margin: 0;
+}
